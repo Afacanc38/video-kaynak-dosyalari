@@ -3,3 +3,5 @@ Burası [YouTube](https://www.youtube.com/channel/UCxam_nuhn1QlOTRVL4ataWA) kana
 
 * Shotcut: https://shotcut.org
 * Cantarell yazı tipi: https://fonts.google.com/specimen/Cantarell
+
+> **Not:** Cantarell yazı tipi GNU/Linux dağıtımlarında halihazırda yüklü geliyor.
