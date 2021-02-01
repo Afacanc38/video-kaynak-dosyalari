@@ -1,0 +1,175 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="6.23.0" title="Shotcut version 20.11.28" producer="main_bin">
+  <profile description="HD 1080p 25 fps" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:43.320">
+    <property name="length">00:00:43.360</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:43.320"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="00:02:02.640">
+    <property name="length">00:02:02.680</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/yapboz/Downloads/Dağınıklık giderici/Video Outrosu/Shadowing - Corbyn Kites.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2021-01-31T20:00:00</property>
+    <property name="shotcut:hash">5bede2a2b84a634dea1e14b9dc0aa7a1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Shadowing - Corbyn Kites.mp3</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" in="00:00:10.840" out="00:00:54.160">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:42.960=0;00:00:43.320=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">00:00:00.400</property>
+    </filter>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:10.840" out="00:00:54.160"/>
+  </playlist>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/yapboz/Downloads/Dağınıklık giderici/Video Outrosu/2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-01-31T20:02:31</property>
+    <property name="shotcut:caption">2.png</property>
+    <property name="shotcut:hash">ce7dd9b95418e164ddf0c433ce8d02d8</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter1" out="00:00:43.320">
+      <property name="argument">İzlediğiniz için teşekkürler</property>
+      <property name="geometry">00:00:00.000~=-1000 232 951 113 1;00:00:02.680~=-1000 232 951 113 1;00:00:03.440~=85 232 951 113 1;00:00:03.960~=85 232 951 113 1</property>
+      <property name="family">Cantarell</property>
+      <property name="size">1080</property>
+      <property name="weight">750</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:43.320"/>
+  </playlist>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/yapboz/Downloads/Dağınıklık giderici/Video Outrosu/yapbozLogoBeyaz.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-01-31T20:00:31</property>
+    <property name="shotcut:caption">yapbozLogoBeyaz.png</property>
+    <property name="shotcut:hash">aa5572ac92e4f15ae24a96b4abbc16c5</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter2" out="00:00:43.320">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000~=571 900 764.16 1080 1;00:00:00.720~=571 0 764.16 1080 1;00:00:01.600~=571 0 764.16 1080 1;00:00:02.120~=22 -57 288 407 1;00:00:02.680~=22 -57 288 407 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </producer>
+  <playlist id="playlist2">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V3</property>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:43.320"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 20.11.28" global_feed="1" in="00:00:00.000" out="00:00:43.320">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <track producer="playlist2"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">1</property>
+      <property name="b_track">3</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
